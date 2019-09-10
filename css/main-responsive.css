@@ -1,0 +1,376 @@
+@media (max-width: 1366px) {
+    .landing-header{
+        padding: 0px 50px;
+    }
+}
+@media (max-width: 1024px) {
+    .container, .kc-container {
+        max-width: 900px !important;
+    }
+    .landing-header{
+        padding: 20px 50px;
+    }
+    .landing-header img{
+        padding: 0px 0px;
+    }
+    .landing-header a{
+        font-size: 18px;
+        padding: 0px 4px;
+    }
+    .landing-header .col-7{
+        width: 75%;
+        max-width: 75%;
+        flex: 0 0 75%;
+    }
+    .landing-header .col-2{
+        display: none;
+    }
+    .article1-section{
+        height: 540px;
+        background-position: inherit;
+    }
+    .article-1-title{
+        max-width: 50%;
+    }
+    .landing-article-1{
+        height: 483px;
+        background-size: 53% auto;
+    }
+    .article-2-para {
+        font-size: 16px;
+    }
+    .article-3-title{
+        font-size: 42px;
+    }
+    .landing-btn a{
+        font-size: 11px;
+        margin-right: 4px;
+    }
+    .article4-logo {
+        position: absolute;
+        top: -30%;
+        width: 30px;
+    }
+    .landing-article-5-cont {
+        padding-bottom: 7px;
+    }   
+    .landing-btn a:last-child {
+        padding: 5px 15px;
+        margin-right: 0px;
+        margin-top: 9px;
+    }
+    .landing-footer-content {
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+    .article-5-title{
+        font-size: 31px;
+    }
+    .article-5-para {
+        font-size: 14px;
+    } 
+
+}
+@media screen and (max-width: 999px) {
+    .container {
+        width: 800px !important;
+    }
+
+    .landing-header .col-3{
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .landing-header .col-7{
+        display: none;
+    }
+
+    .landing-header img{
+        width: 300px;
+        margin: 0 auto;
+        display: inherit;
+    }
+  }  
+
+  @media (width: 768px){
+    
+    .container-types .col-md-3{
+        width: 50%;
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .landing-footer-content{
+        text-align: center;
+    }
+  }
+
+@media (max-width: 768px) {
+    .container, .kc-container {
+        max-width: 668px !important;
+    }
+    .text-right {
+        padding: 34px 0px;
+    }
+    .landing-header a {
+        font-size: 11px;
+        padding: 0px 3px;
+    }
+    .article1-section {
+        height: 374px;
+    }
+    .article-1-para {
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: 20px;
+    }
+    .smallcase-logo {
+        max-width: 50%;
+    }
+    .landing-article-1 {
+        height: 328px;
+    }
+    .article-2-title {
+        font-size: 40px;
+    }
+    .article-2-para {
+        font-size: 15px; 
+        padding-top: 18px;   
+    }
+    .article-3-title {
+        font-size: 40px;    
+    }
+    .article-3-para {
+        font-size: 15px;
+    }
+    .container-types .col-md-3{
+        margin-bottom: 30px;
+    }
+    .smallcase-types {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .article5-img-name {
+        font-size: 18px        
+    }
+    .article-5-caption {
+        font-size: 11px;
+    }
+    .article6-section {
+        padding: 97px 0px;
+    }
+
+}
+@media (max-width: 767px){
+    .container, .kc-container {
+        max-width: 667px !important;
+    }
+
+    .text-right {
+        padding: 27px 0px;   
+    }
+    
+    .article2-section {
+        padding-bottom: 50px;    
+    }
+    
+    .landing-article1-content {
+        padding-top: 25px
+    }
+    .article-1-title {
+        max-width: 50%;    
+    }
+    
+    .article-section3 {
+        padding: 76px 0;
+    }
+    .article4-logo {
+        position: absolute;
+        top: -39%;
+        width: 30px;
+        left: 48%;
+    }
+    .landing-article-5 {
+        padding-top: 130px;
+    }
+    .article-5-title {
+        padding-top: 60px;
+    }
+    .landing-article-5-cont {
+        left: 4%;
+    }
+    .article5-img-name {
+        font-size: 25px;  
+    }
+    .landing-article-5-cont {
+        padding-bottom: 20px;   
+    }
+    .article-5-caption {
+        font-size: 16px;   
+    }
+    .smallcase-types .types-grid img {
+        max-width: 100px;
+    }
+    .article6-section {
+        padding: 70px 0px;
+    }
+    .article-6-title {
+        font-size: 40px;
+        padding-bottom: 17px;
+    }
+    .article-6-para {
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .container, .kc-container {
+        max-width: 500px !important;
+    }
+    .article4-logo {
+        position: absolute;
+        top: -39%;
+        width: 30px;
+        left: 65%;
+    }
+}
+
+@media (max-width: 540px){
+
+    
+    .smallcase-logo {
+        max-width: 10%;    
+    }
+    .article1-section {
+        height: 339px;    
+    }
+    .landing-article-1 {
+        height: 326px;
+        background-size: 61% auto;
+        background-position: right bottom 0%;
+    }
+    .smallcase-logo3 {
+        max-width: 46%;
+    }
+    .article-2-title {
+        font-size: 30px;    
+    }
+    .article-2-para {
+        font-size: 14px;
+    }
+    .article-3-title {
+        font-size: 30px;   
+    }
+    .article-3-para {
+        font-size: 14px;    
+    }
+    .sub-sec-title {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    .landing-author {
+        padding-top: 0px;
+        font-size: 13px;
+    }
+    .article4-logo {
+        position: absolute;
+        top: -39%;
+        width: 30px;
+        left: 65%;
+    }
+    
+    .article5-img-name {
+        font-size: 20px;    
+    }
+    .article-5-caption {
+        font-size: 14px;   
+    }
+    .centered-header small {
+
+        font-size: 13px;
+    }
+    .centered-header h2 {
+
+        font-size: 30px;
+    }
+    .centered-header p {
+        font-size: 14px;
+    }
+    .landing-footer-content {
+        font-size: 10px;
+        padding-top: 50px;
+    }
+}
+@media (max-width: 480px){
+    .container, .kc-container {
+        max-width: 400px !important;
+    }
+    .landing-article-5 {
+        padding-bottom: 100px;
+    }
+    .article4-logo {
+        position: absolute;
+        top: -45%;
+        width: 30px;
+        left: 83%;
+    }
+}
+@media (max-width: 375px){
+    .container, .kc-container {
+        max-width: 300px !important;
+    }
+    .landing-header img {
+        max-width: 76%;    
+    }
+    .text-right {
+        padding: 20px 0px;    
+    }
+    .article1-section {
+        height: 300px;   
+    }
+    .landing-article-1 {
+        height: 295px;
+    }
+    .article-2-title {
+        font-size: 28px;   
+    }
+    .article-2-para {
+        font-size: 13px; 
+        padding-top: 10px;   
+    }
+    .article-section3 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .smallcase-logo3 {
+        max-width: 42%;  
+    }
+    .article-3-title {
+        font-size: 27px;   
+    }
+    .article-3-para {
+        font-size: 12px; 
+        padding-bottom: 10px;  
+    }   
+    .article4-logo {
+        position: absolute;
+        top: -35%;
+    }
+    .smallcase-types {
+        padding-top: 75px;
+    }
+    .landing-article-5 {
+        padding-top: 74px;  
+        padding-bottom: 40px; 
+    }
+    .article6-section {
+        padding: 36px 0px;    
+    }
+    .article-6-title {
+        font-size: 34px;
+        padding-bottom: 10px;   
+    }
+    
+}
+
